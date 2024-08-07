@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>Document</title>
+    <!-- favicon -->
     <link
       rel="icon"
       type="image/png"
       href="https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?cs=srgb&dl=pexels-jonaskakaroto-736230.jpg&fm=jpg"
     />
-    <title>Document</title>
+    <!-- Open Graph / Facebook -->
     <meta property="og:title" content="The Rock" />
     <meta property="og:description" content="The Rock" />
     <meta property="og:site_name" content="IMDb" />
-    <meta property="og:type" content="video.movie" />
+    <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
     <meta
       property="og:image"
@@ -27,6 +29,21 @@
     <meta property="og:image:width" content="1000" />
     <meta property="og:image:height" content="300" />
     <meta property="og:image:alt" content="flower image of the rock" />
+
+    <!-- structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Movie",
+        "name": "The Rock",
+        "description": "The Rock",
+        "image": "https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?cs=srgb&dl=pexels-jonaskakaroto-736230.jpg&fm=jpg",
+        "actor": {
+          "@type": "Person",
+          "name": "Sean Connery"
+        }
+      }
+    </script>
   </head>
   <body>
     <h1>The Rock</h1>
